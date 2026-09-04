@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="photo/.jfif" href="لوجو ابو كيان.jfif">
+    <title>متجر العطور - LUXURY SCENT</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Tajawal', sans-serif; }
+    /* خلفية متدرجة بصورة سحاب سفلية */
+    .hero-sky-bg {
+      background: linear-gradient(to bottom, #0284c7, #38bdf8, #bae6fd);
+      position: relative;
+    }
+    .cloud-shape {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23f0f9ff' fill-opacity='1' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,250.7C960,235,1056,181,1152,165.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+<body class="bg-sky-50 text-slate-800 font-sans antialiased">
+
+  <!-- Header -->
+  <header class="bg-sky-600 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      
+      <!-- Basket / Cart -->
+      <a href="shopping.html" class="basket flex items-center gap-2 cursor-pointer hover:text-sky-200 transition-colors">
+        <div class="relative">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span class="absolute -top-1 -right-1 bg-sky-300 text-sky-950 font-extrabold text-xs rounded-full w-5 h-5 flex items-center justify-center border-2 border-sky-600">2</span>
+        </div>
+        <span class="font-bold text-sm hidden sm:inline">التسوق</span>
+      </a>
+
+      <!-- Logo -->
+      <div class="logo text-center">
+        <a href="" class="text-2xl font-black tracking-wider text-white flex items-center gap-2">
+          ⚡ LUXURY SCENT
+        </a>
+      </div>
+
+      <!-- Nav Bar -->
+      <nav class="hidden md:flex items-center gap-6 font-medium text-sm text-sky-100">
+        <a href="#hero" class="hover:text-white transition-colors">الرئيسية</a>
+        <a href="men.html" class="hover:text-white transition-colors">عطور الرجال</a>
+        <a href="women.html" class="hover:text-white transition-colors">عطور النساء</a>
+        <a href="kids.html" class="hover:text-white transition-colors">عطور الأطفال</a>
+        <a href="older people.html" class="hover:text-white transition-colors">عطور كبار السن</a>
+        <a href="#best-sellers" class="hover:text-white transition-colors">الأكثر مبيعاً</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero hero-sky-bg pt-16 pb-20 text-center text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 relative z-10">
+      <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4 drop-shadow-md">
+        عطور تُعبّر عن حضورك الفاخر
+      </h1>
+      <p class="text-sky-100 text-lg sm:text-xl font-medium mb-8 max-w-2xl mx-auto">
+        تشكيلتنا الفاخرة لعام 2026 المختارة بعناية لأجلك
+      </p>
+      
+      <div class="flex flex-wrap justify-center gap-4 mb-10">
+        <a href="shopping.html" class="bg-white text-sky-700 font-bold px-8 py-3.5 rounded-full shadow-lg hover:bg-sky-50 transition-all transform hover:-translate-y-0.5">استكشف المجموعة كاملة</a>
+      </div>
+
+      <!-- تم وضع جميع الصور الـ 4 داخل حاوية Flex واحدة لتظهر بجانب بعضها -->
+      <div class="flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-4 relative z-10">
+        <!-- الصورة 1 -->
+        <div class="relative">
+          <img src="photo/باسيفك شيل.jfif" class="w-32 sm:w-44 md:w-56 lg:w-64 rounded-3xl border-4 border-white/30 shadow-2xl object-cover aspect-square">
+        </div>
+        <!-- الصورة 2 -->
+        <div class="relative">
+          <img src="photo/ايربابورا.jfif" class="w-32 sm:w-44 md:w-56 lg:w-64 rounded-3xl border-4 border-white/30 shadow-2xl object-cover aspect-square">
+        </div>
+        <!-- الصورة 3 -->
+        <div class="relative">
+          <img src="photo/اون ذا بيتش.jfif" class="w-32 sm:w-44 md:w-56 lg:w-64 rounded-3xl border-4 border-white/30 shadow-2xl object-cover aspect-square">
+        </div>
+        <!-- الصورة 4 -->
+        <div class="relative">
+          <img src="photo/بارادايس جاردن.jfif" class="w-32 sm:w-44 md:w-56 lg:w-64 rounded-3xl border-4 border-white/30 shadow-2xl object-cover aspect-square">
+        </div>
+      </div>
+      
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-24 cloud-shape bg-repeat-x bg-bottom z-20"></div>
+  </section>
+
+  <!-- Categories Bar -->
+  <div class="max-w-7xl mx-auto px-6 -mt-8 mb-8 relative z-30">
+    <div class="bg-white rounded-3xl shadow-xl border border-sky-100 p-2 sm:p-3 flex flex-wrap justify-center gap-2 sm:gap-4 items-center text-slate-700">
+      <a href="men.html" class="flex-1 min-w-[120px] text-center px-4 py-3 rounded-2xl text-sm font-extrabold hover:bg-sky-50 hover:text-sky-600 transition-all">🤵 الرجالية</a>
+      <a href="women.html" class="flex-1 min-w-[120px] text-center px-4 py-3 rounded-2xl text-sm font-extrabold hover:bg-sky-50 hover:text-sky-600 transition-all">👗 النسائية</a>
+      <a href="kids.html" class="flex-1 min-w-[120px] text-center px-4 py-3 rounded-2xl text-sm font-extrabold hover:bg-sky-50 hover:text-sky-600 transition-all">🧸 الأطفال</a>
+      <a href="#best-sellers" class="flex-1 min-w-[120px] text-center px-4 py-3 rounded-2xl text-sm font-extrabold bg-sky-600 text-white shadow-md">🔥 الأكثر مبيعاً</a>
+    </div>
+  </div>
+
+  <!-- Best Sellers Section -->
+  <section id="best-sellers" class="best-sellers py-12 px-6 max-w-7xl mx-auto">
+    <div class="flex justify-between items-center mb-10">
+      <h2 class="text-3xl font-extrabold text-slate-800">الأكثر مبيعاً 🔥</h2>
+      <a href="shopping.html" class="text-sky-600 font-bold hover:underline text-sm">عرض كل العطور &larr;</a>
+    </div>
+
+    <!-- Product Cards Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+            <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">ثبات 24 ساعة</span>
+            <img src="photo/عطور العود الملكي.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1">عطور العود الملكي</h3>
+          <p class="text-xs text-slate-500 mb-4 tracking-tighter">رائحة الفخامة للأصالة الشرقية</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t border-slate-100">
+          <span class="text-xl font-extrabold text-sky-700">450 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 hover:bg-sky-700 text-white font-bold px-5 py-2.5 rounded-xl transition-colors text-sm text-center">شراء الآن</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">الأكثر طلباً</span>
+            <img src="photo/ميجا مار.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1">ميجا مار</h3>
+          <p class="text-xs text-slate-500 mb-4">مزيج زهر البرتقال مع المسك النقي</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">320 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl transition-colors text-sm text-center">شراء الآن</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/عطر البصمة.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">عطر البصمة</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+<!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/اون ذا بيتش.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">اون ذا بيتش</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+
+
+<!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/ايربابورا.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">ايربابورا</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+
+
+
+
+<!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/ايميجينيشن.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">ايميجينيشن</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+
+
+
+<!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/باد بوي.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">باد بوي</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+
+
+
+<!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/مضاوي.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">مضاوي</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+
+
+
+<!-- Card 3 -->
+      <div class="bg-white rounded-3xl p-5 border border-sky-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-sky-50 rounded-2xl p-4 mb-4">
+             <span class="absolute top-3 right-3 bg-sky-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">إصدار خاص</span>
+            <img src="photo/سيمفوني.jfif" class="w-40 h-40 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">سيمفوني</h3>
+          <p class="text-xs text-slate-500 mb-4 text-right tracking-tighter">لأصحاب الذوق الرفيع والتميز</p>
+        </div>
+        <div class="flex items-center justify-between pt-2 border-t">
+          <span class="text-xl font-extrabold text-sky-700">550 <span class="text-xs font-normal">ج.م</span></span>
+          <a href="shopping.html" class="bg-sky-600 text-white font-bold px-5 py-2.5 rounded-xl text-sm">شراء الآن</a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-sky-700 text-sky-100 py-10 border-t border-sky-600">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-right">
+        <div>
+            <h4 class="font-bold mb-4 text-white">روابط سريعة</h4>
+            <ul class="space-y-2 text-sm font-bold tracking-tighter">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="men.html">قسم الرجال</a></li>
+                <li><a href="women.html">قسم النساء</a></li>
+                <li><a href="kids.html">قسم الأطفال</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="font-bold mb-4 text-white uppercase italic tracking-widest">⚡ LUXURY SCENT</h4>
+            <p class="text-sm font-bold opacity-80 uppercase tracking-tighter">جميع الحقوق محفوظة © 2026</p>
+        </div>
+        <div class="text-sm italic opacity-80 font-medium">
+            نقدم لكم أرقى تشكيلة عطور عالمية مختارة لتناسب كافة الأذواق وبأفضل الأسعار.
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUXURY SCENT | العطور النسائية</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Tajawal', sans-serif; }
+    /* خلفية متدرجة أنثوية ناعمة */
+    .hero-women-bg {
+      background: linear-gradient(to bottom, #fda4af, #fecdd3, #fff1f2);
+      position: relative;
+    }
+    .cloud-shape {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23fff1f2' fill-opacity='1' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,224C672,245,768,267,864,250.7C960,235,1056,181,1152,165.3C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+<body class="bg-rose-50 text-slate-800 font-sans antialiased">
+
+  <!-- Header -->
+  <header class="bg-rose-500 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      
+      <!-- Basket / Cart -->
+      <a href="shopping.html" class="basket flex items-center gap-2 cursor-pointer hover:text-rose-100 transition-colors">
+        <div class="relative">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span class="absolute -top-1 -right-1 bg-white text-rose-600 font-extrabold text-xs rounded-full w-5 h-5 flex items-center justify-center shadow-md">3</span>
+        </div>
+        <span class="font-bold text-sm hidden sm:inline">السلة</span>
+      </a>
+
+      <!-- Logo -->
+      <div class="logo text-center">
+        <a href="" class="text-2xl font-black tracking-wider text-white flex items-center gap-2">
+          ✨ LUXURY SCENT
+        </a>
+      </div>
+
+      <!-- Nav Bar -->
+      <nav class="hidden md:flex items-center gap-6 font-medium text-sm text-rose-50">
+        <a href="home.html" class="hover:text-white transition-colors">الرئيسية</a>
+        <a href="men.html" class="hover:text-white transition-colors">الرجال</a>
+        <a href="women.html" class="text-white font-bold border-b-2 border-white pb-1">النساء</a>
+        <a href="kids.html" class="hover:text-white transition-colors">الأطفال</a>
+        <a href="older people.html" class="hover:text-white transition-colors">كبار السن</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-women-bg pt-16 pb-20 text-center text-rose-900 relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-6 relative z-10">
+      <span class="inline-block bg-white/70 text-rose-600 text-xs font-bold px-5 py-2 rounded-full mb-4 shadow-sm uppercase tracking-widest">
+        مجموعة الأنوثة والجمال 2026
+      </span>
+      <h1 class="text-4xl sm:text-6xl font-black leading-tight mb-4 drop-shadow-sm text-rose-950">
+        رائحة تكتمل بها أناقتكِ
+      </h1>
+      <p class="text-rose-800 text-lg sm:text-xl font-medium mb-8 max-w-2xl mx-auto italic">
+        اختاري ما يناسب رقتكِ من أرقى العطور العالمية المختارة خصيصاً للمرأة العصرية.
+      </p>
+      <a href="#products" class="bg-rose-500 text-white font-bold px-10 py-4 rounded-full shadow-lg hover:bg-rose-600 transition-all transform hover:scale-105 inline-block">
+        تسوقي المجموعة
+      </a>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-24 cloud-shape bg-repeat-x bg-bottom z-20"></div>
+  </section>
+
+  <!-- Categories Icons Navigation -->
+  <div class="max-w-4xl mx-auto px-6 -mt-8 mb-16 relative z-30">
+      <div class="bg-white rounded-3xl shadow-xl p-3 flex justify-around items-center border border-rose-100 text-slate-600">
+          <button class="flex-1 text-center py-2 hover:text-rose-500 transition-all font-bold">🌸 زهورية</button>
+          <div class="w-px h-8 bg-rose-50"></div>
+          <button class="flex-1 text-center py-2 hover:text-rose-500 transition-all font-bold">🍊 منعشة</button>
+          <div class="w-px h-8 bg-rose-50"></div>
+          <button class="flex-1 text-center py-2 hover:text-rose-500 transition-all font-bold">🍬 مسك وسكر</button>
+      </div>
+  </div>
+
+  <!-- Products Section -->
+  <main id="products" class="max-w-7xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-black text-rose-900 mb-10 text-center md:text-right border-r-4 border-rose-500 pr-4">إصدارات مذهلة لكِ 🔥</h2>
+
+    <!-- Grid بنفس شكل الـ Card في الرئيسية -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      
+      <!-- كرت: سيمفوني (مثال مستخدم) -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+            <span class="absolute top-3 right-3 bg-rose-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">الأكثر رقة</span>
+            <img src="photo/Good Girl.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl shadow-md border-2 border-white">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right">Good Girl - Symphony</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-medium">مزيج من الياسمين والفانيليا يأسر الحواس في كل مناسبة.</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4">
+          <span class="text-xl font-black text-rose-600 tracking-tighter">550 <small class="font-bold">ج.م</small></span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm transition-all shadow-md shadow-rose-200">أضف للسلة</a>
+        </div>
+      </div>
+
+      <!-- كرت: مضاوي -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-pink-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">حصري</span>
+            <img src="photo/Si.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right font-black uppercase">Si </h3>
+          <p class="text-xs text-slate-500 text-right font-medium italic">عراقة الشرق ممتزجة مع لمسة كلاسيكية خالدة.</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4">
+          <span class="text-xl font-black text-rose-600 tracking-tighter">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-md transition-colors">شراء الآن</a>
+        </div>
+      </div>
+
+<!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/Coco Mademoiselle.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">Coco Mademoiselle</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+<!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/جود جيرل.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">جود جيرل</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+<!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/عطر اولمبيا.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">عطر اولمبيا</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+<!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/فيكتورة سكرت.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">فيكتورة سكرت</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+
+
+<!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/عطر بربري هير.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">عطر بربري هير</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+
+<!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/Libre.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">Libre</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+
+
+
+      <!-- كرت: ايربابورا -->
+      <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-md hover:shadow-xl transition-all flex flex-col justify-between">
+        <div>
+          <div class="relative bg-rose-50 rounded-2xl p-4 mb-4 text-center overflow-hidden">
+             <span class="absolute top-3 right-3 bg-amber-400 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">زهور ملكية</span>
+            <img src="photo/La Vie Est Belle.jfif" class="w-44 h-44 object-cover mx-auto rounded-xl border-4 border-white/50 shadow-md">
+          </div>
+          <h3 class="text-xl font-bold text-slate-800 mb-1 text-right italic font-black uppercase">La Vie Est Belle</h3>
+          <p class="text-xs text-slate-500 text-right leading-relaxed font-bold opacity-80 uppercase tracking-widest italic tracking-tighter shadow-md">مجموعة النظافة والنعومة القصوى</p>
+        </div>
+        <div class="flex items-center justify-between mt-6 border-t pt-4 font-black">
+          <span class="text-xl text-rose-600 tracking-tighter shadow-md uppercase italic italic">550 ج.م</span>
+          <a href="shopping.html" class="bg-rose-500 hover:bg-rose-600 text-white font-bold px-8 py-2.5 rounded-xl text-sm shadow-xl italic italic uppercase shadow shadow-all border-rose-50 border">احجز لطلفك</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-rose-600 text-white py-16 border-t border-rose-700">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-right italic uppercase font-bold italic tracking transition shadow shadow transition border transition shadow shadow">
+        <div>
+            <h4 class="font-bold mb-6 text-rose-100 text-lg border-b-2 border-white/20 pb-2 transition">اختيارات سريعة</h4>
+            <ul class="space-y-4 text-xs font-black italic">
+                <li><a href="home.html" class="hover:underline">الرئيسية</a></li>
+                <li><a href="older people.html">كبار السن</a></li>
+                <li><a href="kids.html">الأطفال</a></li>
+                <li><a href="men.html">الرجال</a></li>
+
+            </ul>
+        </div>
+        
+        <div>
+            <h4 class="font-bold mb-6 text-white text-xl italic uppercase tracking transition shadow shadow-all border transition transition transition tracking-tighter italic border">⚡ LUXURY SCENT</h4>
+            <p class="text-sm font-black tracking-widest tracking shadow transition transition shadow italic border shadow-md transition transition">جمالك هو أولويتنا في 2026</p>
+        </div>
+        
+        <div class="text-xs leading-loose font-black italic tracking-widest transition opacity-90 uppercase border border transition tracking shadow shadow transition transition shadow">
+             جميع عطورنا أصلية وتتميز بنقاء المكونات الطبيعية. تمنحك الأناقة والحضور اللافت والتمتع برائحة تدوم طوال اليوم. نعدكم بتجربة لا تضاهى في عالم الفخامة.
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>

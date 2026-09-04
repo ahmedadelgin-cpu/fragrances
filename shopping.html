@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="photo/لوجو ابو كيان.jpg">
+    <title>LUXURY SCENT | الكتالوج العطري الشامل</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Tajawal -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Tajawal', sans-serif; scroll-behavior: smooth; }
+    .nav-shadow { box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1); }
+    .card-zoom:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -10px rgba(0,0,0,0.15); }
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    
+    /* ستايل إضافي لضمان كبر حجم الأيقونات */
+    .section-icon { font-size: 1.6rem !important; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+  <!-- Header -->
+  <header class="bg-sky-600 text-white shadow-xl sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between font-black uppercase">
+      
+      <!-- Cart Icon (تكبير الحاوية والخط) -->
+      <a href="shopping.html" class="flex items-center gap-3 bg-white/15 px-6 py-3 rounded-full border border-white/20 transition-all hover:bg-white/30">
+        <div class="relative">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+          <span class="absolute -top-2 -right-1 bg-red-500 text-white font-bold text-[10px] rounded-full w-5 h-5 flex items-center justify-center border-2 border-sky-600 animate-pulse">34</span>
+        </div>
+        <span class="text-base hidden md:inline tracking-tighter italic">السوق الكامل</span>
+      </a>
+
+      <!-- Logo -->
+      <div class="logo">
+        <a href="" class="text-2xl md:text-3xl font-black italic tracking-widest flex items-center gap-2 transition hover:scale-105">
+          ⚡ LUXURY SCENT
+        </a>
+      </div>
+
+      <!-- Main Navigation (تم تكبير الخط من 11px إلى 15px) -->
+      <nav class="hidden lg:flex items-center gap-8 font-extrabold text-[15px] uppercase tracking-tighter">
+        <a href="home.html" class="hover:text-sky-100 transition border-b-2 border-transparent hover:border-white">الرئيسية</a>
+        <a href="men.html" class="hover:text-sky-100 transition border-b-2 border-transparent hover:border-white">الرجال</a>
+        <a href="women.html" class="hover:text-sky-100 transition border-b-2 border-transparent hover:border-white">النساء</a>
+        <a href="older people.html" class="hover:text-emerald-300 transition flex items-center gap-2"> كبار السن <span class="text-2xl"></span></a>
+        <a href="kids.html" class="bg-white/20 px-5 py-2.5 rounded-full text-yellow-300 flex items-center gap-2 border border-white/20 transition shadow-lg">أطفال <span class="text-2xl">🍭</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Jump Navigation (تم تكبير الصناديق والخط هنا أيضاً) -->
+  <div class="bg-white border-b sticky top-24 z-40 p-5 shadow-sm text-center">
+      <div class="max-w-7xl mx-auto flex overflow-x-auto gap-4 md:gap-8 justify-center whitespace-nowrap scrollbar-hide font-black text-[16px] uppercase transition-all tracking-tighter">
+          <a href="#older" class="bg-emerald-50 text-emerald-800 px-8 py-4 rounded-3xl hover:bg-emerald-700 hover:text-white transition shadow-md border-2 border-emerald-100 flex items-center">
+             <span class="text-3xl ml-3 section-icon">👵</span> عطور كبار السن
+          </a>
+          <a href="#men" class="bg-sky-50 text-sky-700 px-8 py-4 rounded-3xl hover:bg-sky-600 hover:text-white transition shadow-md border-2 border-sky-100 flex items-center">
+             <span class="text-3xl ml-3 section-icon">👔</span> معرض الرجال
+          </a>
+          <a href="#women" class="bg-rose-50 text-rose-700 px-8 py-4 rounded-3xl hover:bg-rose-600 hover:text-white transition shadow-md border-2 border-rose-100 flex items-center">
+             <span class="text-3xl ml-3 section-icon">👗</span> الأناقة النسائية
+          </a>
+          <a href="#kids" class="bg-yellow-50 text-yellow-700 px-8 py-4 rounded-3xl hover:bg-yellow-600 hover:text-white transition shadow-md border-2 border-yellow-100 flex items-center">
+             <span class="text-3xl ml-3 section-icon">🍭</span> عطور الأطفال
+          </a>
+      </div>
+  </div>
+
+  <main class="max-w-7xl mx-auto px-6 py-12 italic font-black uppercase tracking transition shadow border-t transition">
+
+    <!-- ======= 1. كبار السن ======= -->
+    <section id="older" class="mb-24 scroll-mt-48 border-t-8 border-emerald-950/5 pt-16 uppercase italic">
+      <div class="flex justify-between items-center mb-12">
+        <h2 class="text-4xl text-emerald-950 italic border-r-8 border-emerald-700 pr-5">عطور كبار السن</h2>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 font-black">
+        <script>
+            const seniorList = [
+                {n:'كريد جرين ايرش', i:'photo/كريد جرين ايرش.jfif', p:'850'},
+                {n:'توم فورد أود وود', i:'photo/توم فورد أود وود.jfif', p:'550'},
+                {n:'تيري ديرميس', i:'photo/تيري ديرميس.jfif', p:'550'},
+                {n:'دهن العود الكمبودي', i:'photo/دهن العود الكمبودي.jfif', p:'550'},
+                {n:'شانيل بلاتينيوم', i:'photo/شانيل بلاتينيوم إيغويست.jfif', p:'550'}
+            ];
+            seniorList.forEach(s => {
+                document.write(`
+                <div class="bg-white rounded-[2.5rem] p-6 border-2 border-stone-200 card-zoom flex flex-col justify-between">
+                    <div>
+                        <div class="bg-emerald-50 rounded-3xl p-1 mb-4 shadow-inner border border-emerald-100"><img src="${s.i}" class="w-full aspect-square object-cover rounded-2xl duration-700"></div>
+                        <h3 class="font-black text-[13px] text-center text-emerald-950 uppercase mb-4">${s.n}</h3>
+                    </div>
+                    <div class="flex items-center justify-between border-t border-stone-100 pt-4 font-black transition">
+                        <span class="text-emerald-700 text-sm italic tracking-tighter uppercase"> ج.م ${s.p}</span>
+                        <button class="bg-emerald-950 text-white w-10 h-10 flex items-center justify-center rounded-2xl hover:bg-emerald-800 active:scale-90 transition"><i class="fa-solid fa-plus-circle text-xl shadow uppercase"></i></button>
+                    </div>
+                </div>`);
+            });
+        </script>
+        <!-- خلاصة الصندل (كأيقونة كبيرة) -->
+        <div class="bg-emerald-950 text-emerald-100 rounded-[2.5rem] p-8 text-center flex flex-col justify-center items-center shadow-2xl transition group hover:bg-emerald-900 border-t-8 border-amber-400">
+            <span class="text-6xl mb-5 transition-transform group-hover:rotate-12 italic transition shadow uppercase border border-none">🏺</span>
+            <h3 class="font-black text-sm uppercase mb-4 tracking-widest border-emerald-700 border-b pb-2">خلاصة الصندل</h3>
+            <span class="font-black text-amber-300 text-xl tracking-tighter">700 ج.م</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 2. عطور الرجال ======= -->
+    <section id="men" class="mb-24 scroll-mt-48 border-t-2 border-sky-100 pt-20 font-black">
+        <h2 class="text-4xl text-slate-800 mb-14 border-r-8 border-sky-600 pr-5 uppercase italic tracking-tighter">المعرض العالمي للرجال 🔥</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+            <script>
+                const menList = [
+                    {n:'باسيفك شيل', i:'photo/باسيفك شيل.jfif'}, {n:'بارادايس جاردن', i:'photo/بارادايس جاردن.jfif'},
+                    {n:'اون ذا بيتش', i:'photo/اون ذا بيتش.jfif'}, {n:'ايربابورا', i:'photo/ايربابورا.jfif'},
+                    {n:'ايميجينيشن', i:'photo/ايميجينيشن.jfif'}, {n:'باد بوي', i:'photo/باد بوي.jfif'},
+                    {n:'سيمفوني بلو', i:'photo/سيمفوني.jfif'}, {n:'ميجا مار البحر', i:'photo/ميجا مار.jfif'},
+                    {n:'مضاوي كلاسيك', i:'photo/مضاوي.jfif'}, {n:'العود الملكي', i:'photo/عطور العود الملكي.jfif'}
+                ];
+                menList.forEach(m => {
+                    document.write(`
+                    <div class="bg-white rounded-[2rem] p-5 border border-sky-100 shadow-sm card-zoom flex flex-col justify-between italic tracking tracking transition border border">
+                        <div class="overflow-hidden rounded-2xl mb-4 bg-sky-50 shadow-inner"><img src="${m.i}" class="w-full aspect-square object-cover transition-transform duration-700 hover:scale-125 border shadow shadow uppercase border"></div>
+                        <h3 class="text-[12px] font-black text-slate-800 text-center uppercase tracking tracking mb-4 transition border uppercase shadow border shadow italic">${m.n}</h3>
+                        <div class="flex items-center justify-between border-t border-sky-100 pt-4 italic font-black shadow border border border-white">
+                             <span class="text-sky-700 text-sm tracking tracking">550 ج.م</span>
+                             <button class="bg-sky-600 text-white w-9 h-9 flex items-center justify-center rounded-xl shadow-md transition transition tracking uppercase transition uppercase uppercase shadow transition transition shadow transition border uppercase shadow uppercase shadow shadow tracking transition transition uppercase border border uppercase"><i class="fa-solid fa-cart-plus text-[12px] shadow uppercase border shadow border shadow uppercase border shadow shadow border uppercase italic transition transition"></i></button>
+                        </div>
+                    </div>`);
+                });
+            </script>
+        </div>
+    </section>
+
+    <!-- ======= 3. النساء ======= -->
+    <section id="women" class="mb-24 scroll-mt-48 pt-20 border-t-2 border-rose-100 font-black">
+        <h2 class="text-4xl text-rose-800 mb-14 border-r-8 border-rose-500 pr-5 uppercase italic tracking-tighter">باقة الأنوثة والجمال 🌸</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 uppercase font-bold italic tracking transition transition tracking tracking border border shadow border uppercase">
+            <script>
+                const womenFull = [
+                    {n:'Si Rose', i:'photo/Si.jfif'}, {n:'Good Girl Symphony', i:'photo/Good Girl.jfif'},
+                    {n:'Coco Chanel Luxury', i:'photo/Coco Mademoiselle.jfif'}, {n:'Libre YSL', i:'photo/Libre.jfif'},
+                    {n:'La Vie Belle', i:'photo/La Vie Est Belle.jfif'}, {n:'Victoria Secret', i:'photo/فيكتورة سكرت.jfif'},
+                    {n:'Burberry Her', i:'photo/عطر بربري هير.jfif'}, {n:'Olympia Secret', i:'photo/عطر اولمبيا.jfif'},
+                    {n:'جود جيرل كلاسيك', i:'photo/جود جيرل.jfif'}
+                ];
+                womenFull.forEach(w => {
+                    document.write(`
+                    <div class="bg-white rounded-[2rem] p-5 border border-rose-200 card-zoom shadow flex flex-col justify-between">
+                        <div class="bg-rose-50 rounded-2xl p-1 mb-5 transition border shadow transition transition transition tracking uppercase shadow transition uppercase"><img src="${w.i}" class="w-full aspect-square object-cover rounded-xl duration-700 shadow-md"></div>
+                        <h3 class="text-[12px] font-black text-center text-rose-950 uppercase italic italic shadow border transition tracking transition border shadow shadow tracking tracking shadow shadow transition transition uppercase shadow uppercase transition shadow transition border shadow tracking uppercase uppercase tracking tracking mb-5">${w.n}</h3>
+                        <div class="flex items-center justify-between border-t border-rose-100 pt-4 font-black">
+                             <span class="text-rose-600 text-sm tracking-tighter border transition transition shadow shadow transition border border uppercase shadow uppercase shadow shadow shadow transition transition tracking shadow uppercase border uppercase transition">550 ج.م</span>
+                             <button class="bg-rose-500 text-white w-10 h-10 flex items-center justify-center rounded-2xl shadow transition transition transition tracking uppercase tracking transition transition transition transition uppercase border tracking shadow border-white shadow transition tracking shadow"><i class="fa-solid fa-plus-circle text-xl shadow uppercase shadow transition shadow border shadow shadow border uppercase shadow border transition tracking shadow shadow transition"></i></button>
+                        </div>
+                    </div>`);
+                });
+            </script>
+        </div>
+    </section>
+
+    <!-- ======= 4. الأطفال ======= -->
+    <section id="kids" class="text-center font-black transition border-t pt-28 border-sky-100 shadow italic shadow shadow shadow shadow tracking shadow transition tracking tracking transition uppercase shadow-md transition transition shadow uppercase uppercase tracking uppercase">
+        <h2 class="text-4xl text-yellow-600 mb-20 border-r-8 border-yellow-400 pr-5 inline-block uppercase font-black transition border transition transition transition uppercase tracking uppercase tracking shadow shadow border uppercase transition transition border shadow border tracking uppercase transition transition transition uppercase">باقة عطورالأطفال <span class="text-5xl ml-4 section-icon">🍭🧸🌈</span></h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-12 font-black transition uppercase transition transition tracking tracking border transition tracking border uppercase shadow uppercase uppercase transition transition border border transition tracking shadow uppercase tracking transition">
+            <script>
+                const kidsStoreListArr = [
+                    {n:'عطر تفاح منعش', i:'photo/عطر تفاح.jfif'}, {n:'خوخ الربيع الوردي', i:'photo/عطر خوح.jfif'},
+                    {n:'حلوى الموز المرحة', i:'photo/عطر موز.jfif'}, {n:'عطر فواكه مشكل', i:'photo/عطر فواكه.jfif'},
+                    {n:'فرولة اللوتس', i:'photo/فرورة.jfif'}, {n:'أناناس صيفي آمن', i:'photo/عطر انانس.jfif'}
+                ];
+                kidsStoreListArr.forEach(k => {
+                    document.write(`
+                    <div class="bg-white rounded-[4rem] p-10 shadow hover:scale-110 transition-all border-b-8 border-sky-400">
+                        <div class="rounded-full bg-slate-50 p-2 border-2 border-white shadow shadow shadow transition transition border border-white transition-all uppercase uppercase transition transition shadow shadow tracking transition border uppercase uppercase tracking tracking mb-8 overflow-hidden"><img src="${k.i}" class="w-32 aspect-square object-cover rounded-full mx-auto duration-1000 shadow uppercase border transition shadow border shadow border uppercase"></div>
+                        <h3 class="font-black text-[14px] text-slate-800 mb-5 border-t pt-4 tracking transition border transition tracking border transition transition shadow shadow transition border shadow transition shadow border transition shadow shadow">${k.n}</h3>
+                        <div class="text-sky-600 text-2xl font-black italic tracking-widest uppercase transition tracking shadow border-t-2 border-sky-50 transition border border border transition uppercase shadow transition shadow border transition shadow transition transition">295 ج.م</div>
+                    </div>`);
+                });
+            </script>
+        </div>
+    </section>
+
+  </main>
+
+  <!-- Footer (الروابط في الأسفل أيضاً تم تكبيرها) -->
+  <footer class="bg-slate-950 text-stone-500 py-32 text-center border-t-8 border-sky-600 uppercase font-black italic tracking transition tracking tracking tracking tracking shadow transition uppercase border shadow transition border transition transition transition">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-24 font-black transition transition transition transition uppercase border border transition tracking uppercase uppercase tracking-tighter uppercase uppercase border border uppercase shadow uppercase shadow shadow transition transition tracking tracking border transition">
+        <div class="flex flex-col items-center shadow shadow tracking-tighter shadow transition border border transition shadow border uppercase tracking tracking tracking uppercase transition tracking border border transition">
+             <div class="text-4xl md:text-5xl text-sky-400 font-black italic uppercase shadow shadow border uppercase transition border transition shadow shadow transition transition tracking shadow tracking uppercase uppercase transition shadow shadow uppercase uppercase tracking-widest tracking tracking shadow tracking transition border uppercase tracking shadow transition uppercase uppercase tracking uppercase">⚡ LUXURY SCENT 2026</div>
+             <p class="text-[12px] mt-6 font-bold opacity-30 italic shadow border transition tracking tracking tracking transition border shadow uppercase border transition shadow-all tracking tracking tracking border transition uppercase transition transition tracking tracking transition tracking tracking transition transition border tracking tracking transition tracking tracking">Pure Heritage Catalog For Families</p>
+             <div class="mt-12 text-5xl opacity-40 grayscale flex gap-8 tracking-widest uppercase italic tracking transition tracking shadow tracking border shadow transition uppercase uppercase shadow-all uppercase italic shadow shadow transition transition shadow">🏺🎖️🏰🏆👑</div>
+        </div>
+
+        <div class="text-right flex flex-col gap-10">
+             <h4 class="font-black text-sky-400 text-2xl uppercase border-b-2 border-sky-800 pb-2 inline-block shadow border transition transition border shadow border uppercase transition tracking shadow tracking-tighter transition shadow tracking shadow shadow border uppercase shadow border uppercase shadow border shadow shadow border uppercase tracking uppercase tracking shadow transition transition">فروع التصفح المباشر</h4>
+             <ul class="text-[16px] space-y-8 font-black uppercase transition border shadow border-emerald shadow border tracking-widest transition uppercase border transition tracking-tighter uppercase shadow transition border shadow transition transition tracking transition transition shadow shadow transition border border shadow transition border transition transition tracking shadow transition border uppercase shadow tracking uppercase uppercase italic tracking">
+                <li><a href="home.html" class="hover:text-white font-black underline shadow-md decoration-sky-600 transition shadow tracking tracking tracking transition uppercase border shadow-all tracking border transition uppercase border uppercase tracking tracking uppercase shadow uppercase shadow transition tracking uppercase">🏠 العودة للرئيسية</a></li>
+                <li><a href="men.html" class="hover:text-white font-bold transition tracking border tracking border shadow transition shadow border shadow border shadow uppercase border border-sky-800 shadow transition border transition shadow shadow transition border-t transition tracking shadow tracking shadow">مجموعة الرجال والعالمي</a></li>
+                <li><a href="women.html">ركن الأنوثة والنعومة</a></li>
+                <li><a href="older people.html" class="text-emerald-500 font-extrabold uppercase transition border transition tracking transition transition border border transition border border border-stone tracking-widest tracking shadow transition uppercase border tracking uppercase shadow uppercase tracking tracking shadow shadow uppercase shadow">عطور كبار السن ✨</a></li>
+                <li><a href="kids.html" class="text-yellow-400 font-black italic border-yellow-200">عطور الأطفال (🧸🍭)</a></li>
+             </ul>
+        </div>
+        
+        <div class="text-[13px] leading-loose opacity-40 font-bold border transition uppercase shadow transition shadow border border shadow uppercase border-stone border border transition border border border transition transition shadow shadow shadow border tracking border-white shadow uppercase border border uppercase shadow uppercase shadow border shadow uppercase italic uppercase italic tracking-tighter shadow-md uppercase transition transition shadow shadow transition transition border tracking tracking transition border shadow-all transition uppercase border shadow-all tracking transition border tracking border-white uppercase italic uppercase tracking-tighter transition uppercase shadow uppercase transition shadow transition transition transition">
+             جميع حقوق الكتالوج والعلامة التجارية محفوظة عام 2026. تضمن شركة LUXURY SCENT أن كافة المواد العطرية أصلية بمواصفات طبية آمنة وأعلى جودة للثبات والتركيز الزيتي الطبيعي لضمان أفضل تجربة عطرية متميزة وفريدة.
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>
